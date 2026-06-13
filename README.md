@@ -50,7 +50,7 @@ E-commerce project developed using Spring Boot and React.js.<br>
 
 https://perfume-websore-api.herokuapp.com/swagger-ui.html <br/>
 Or show local: <br/>
-http://localhost:8080/swagger-ui.html
+http://localhost:3000/menu
 
 ## Screenshots
 
