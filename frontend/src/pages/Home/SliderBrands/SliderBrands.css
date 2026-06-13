@@ -1,0 +1,74 @@
+/* Mobile-first */
+.brands-carousel {
+  margin: 0 16px;
+}
+
+.brands-wrapper {
+  margin-top: 20px;
+}
+
+.brands-wrapper-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Carousel dots */
+.brands-wrapper .ant-carousel .slick-dots li button {
+  background: #000000;
+  opacity: 0.4;
+}
+
+.brands-wrapper .ant-carousel .slick-dots li.slick-active button {
+  opacity: 1;
+  background: #000000;
+}
+
+.brands-wrapper .ant-carousel .slick-dots-bottom {
+  bottom: -20px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .brands-carousel {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .brands-wrapper {
+    margin-top: 24px;
+  }
+
+  .brands-wrapper-title {
+    font-size: 20px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .brands-carousel {
+    max-width: 1000px;
+  }
+
+  .brands-wrapper {
+    margin-top: 32px;
+  }
+
+  .brands-wrapper .ant-carousel .slick-dots-bottom {
+    bottom: -15px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .brands-carousel {
+    max-width: 1200px;
+  }
+
+  .brands-wrapper-title {
+    font-size: 22px;
+  }
+
+  .brands-wrapper .ant-carousel .slick-dots-bottom {
+    bottom: -10px;
+  }
+}

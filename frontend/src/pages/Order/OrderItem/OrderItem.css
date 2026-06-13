@@ -1,0 +1,51 @@
+/* Mobile-first */
+.menu-card .ant-card-cover {
+  width: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-card-image {
+  margin-top: 16px;
+}
+
+.menu-content .ant-typography {
+  text-align: center;
+  display: block;
+}
+
+/* Ensure image behaves well */
+.menu-card .ant-card-cover img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .menu-card .ant-card-cover {
+    width: 70px;
+  }
+
+  .menu-card-image {
+    margin-top: 20px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .menu-card .ant-card-cover {
+    width: 80px; /* your original */
+  }
+
+  .menu-card-image {
+    margin-top: 24px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .menu-card .ant-card-cover {
+    width: 90px;
+  }
+}

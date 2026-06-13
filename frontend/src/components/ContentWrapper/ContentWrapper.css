@@ -1,0 +1,39 @@
+/* ===== DEFAULT (MOBILE FIRST) ===== */
+.login-content {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 16px;
+  border-radius: 12px;
+  min-height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 768px) {
+  .login-content {
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;   /* 🔥 increased */
+  }
+}
+
+/* ===== LAPTOP ===== */
+@media (min-width: 1024px) {
+  .login-content {
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 1100px;  /* 🔥 BIG FIX (was too small) */
+    min-height: 500px;
+  }
+}
+
+/* ===== LARGE SCREENS ===== */
+@media (min-width: 1440px) {
+  .login-content {
+    padding: 50px;
+    margin: 60px auto;
+    max-width: 1300px;  /* 🔥 more space for account layout */
+    min-height: 550px;
+  }
+}

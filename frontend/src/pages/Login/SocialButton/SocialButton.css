@@ -1,0 +1,58 @@
+/* Mobile-first */
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* spacing between icon and text */
+}
+
+/* Icon */
+.social-btn img {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Google */
+.social-btn.google img {
+  height: 22px;
+}
+
+/* Facebook */
+.social-btn.facebook img {
+  height: 20px;
+}
+
+/* GitHub */
+.social-btn.github img {
+  height: 20px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .social-btn img {
+    height: 22px;
+  }
+
+  .social-btn.google img {
+    height: 24px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .social-btn img {
+    height: 24px;
+  }
+
+  .social-btn.google img {
+    height: 26px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .social-btn img {
+    height: 26px;
+  }
+}

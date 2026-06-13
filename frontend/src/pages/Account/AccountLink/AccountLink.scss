@@ -1,0 +1,63 @@
+.account-sidebar-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+
+  border-radius: 12px;
+  text-decoration: none;
+  color: #2c2c2c;
+
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+
+  transition: all 0.25s ease;
+}
+
+/* Left side (icon + text) */
+.link-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  overflow: hidden;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 500;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Arrow icon */
+.arrow {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Hover */
+.account-sidebar-link:hover {
+  background: #f3f6fb;
+  border-color: #d6e4ff;
+}
+
+/* Active */
+.account-sidebar-link.is-active {
+  background: linear-gradient(135deg, #2f80ed, #56ccf2);
+  color: #fff;
+  border: none;
+}
+
+.account-sidebar-link.is-active .arrow {
+  color: #fff;
+}

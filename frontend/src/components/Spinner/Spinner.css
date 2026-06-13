@@ -1,0 +1,23 @@
+/* Mobile-first */
+.spinner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 60vh; /* flexible instead of fixed height */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .spinner {
+    min-height: 65vh;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .spinner {
+    min-height: 70vh;
+  }
+}

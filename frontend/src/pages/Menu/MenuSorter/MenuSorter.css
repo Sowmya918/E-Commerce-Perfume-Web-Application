@@ -1,0 +1,23 @@
+.menu-sorter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.menu-sorter .price-button,
+.menu-sorter .ant-radio-button-wrapper-disabled {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: default;
+  opacity: 0.7;
+}
+
+.menu-sorter .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #00A1DF;
+}
+
+@media (min-width: 768px) {
+  .menu-sorter {
+    gap: 12px;
+  }
+}

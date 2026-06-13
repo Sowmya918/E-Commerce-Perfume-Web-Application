@@ -1,0 +1,29 @@
+/* Mobile-first */
+.manage-user-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .manage-user-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .manage-user-icon {
+    font-size: 24px;
+    margin-right: 12px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .manage-user-icon {
+    font-size: 28px;
+    margin-right: 14px;
+  }
+}

@@ -1,0 +1,115 @@
+/* ======================
+   NAVBAR BASE
+====================== */
+
+.navbar-logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background-color: #000;
+}
+
+/* ======================
+   NAVBAR MENU
+====================== */
+
+.navbar-wrapper {
+  background-color: #000;
+}
+
+.navbar-wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* MENU ITEMS */
+.navbar-wrapper ul li {
+  list-style: none;
+}
+
+/* LINKS */
+.navbar-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 14px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar-wrapper a:hover {
+  color: #00A1DF;
+}
+
+/* ICON */
+.navbar-wrapper a svg {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+/* ======================
+   CART ICON
+====================== */
+
+.navbar-cart svg {
+  font-size: 20px;
+}
+
+/* ======================
+   MOBILE FIX
+====================== */
+
+@media (max-width: 768px) {
+  .navbar-wrapper ul {
+    flex-wrap: wrap; /* wrap instead of column */
+    gap: 6px;
+  }
+
+  .navbar-wrapper a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+
+/* ======================
+   TABLET
+====================== */
+
+@media (min-width: 768px) {
+  .navbar-wrapper ul {
+    gap: 12px;
+  }
+}
+
+/* ======================
+   LAPTOP
+====================== */
+
+@media (min-width: 1024px) {
+  .navbar-logo-wrapper {
+    padding: 20px 60px;
+  }
+
+  .navbar-wrapper ul {
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+}
+
+/* ======================
+   LARGE SCREENS
+====================== */
+
+@media (min-width: 1440px) {
+  .navbar-logo-wrapper {
+    padding: 20px 120px;
+  }
+}

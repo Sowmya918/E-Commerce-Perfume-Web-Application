@@ -1,0 +1,63 @@
+/* Mobile-first */
+.perfume-cards-slider {
+  margin: 20px 16px 60px;
+}
+
+.perfume-cards-slider-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Carousel dots */
+.perfume-cards-slider .ant-carousel .slick-dots li button {
+  background: #000000;
+  opacity: 0.4;
+}
+
+.perfume-cards-slider .ant-carousel .slick-dots li.slick-active button {
+  opacity: 1;
+  background: #000000;
+}
+
+.perfume-cards-slider .ant-carousel .slick-dots-bottom {
+  bottom: -30px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .perfume-cards-slider {
+    margin: 24px auto 70px;
+    max-width: 700px;
+  }
+
+  .perfume-cards-slider-title {
+    font-size: 20px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .perfume-cards-slider {
+    margin: 32px auto 85px;
+    max-width: 1000px;
+  }
+
+  .perfume-cards-slider .ant-carousel .slick-dots-bottom {
+    bottom: -40px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .perfume-cards-slider {
+    max-width: 1200px;
+  }
+
+  .perfume-cards-slider-title {
+    font-size: 22px;
+  }
+
+  .perfume-cards-slider .ant-carousel .slick-dots-bottom {
+    bottom: -50px;
+  }
+}

@@ -1,0 +1,31 @@
+.title-icon svg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .title-icon svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 14px;
+  }
+}
+
+/* Laptop (Mac/Windows same) */
+@media (min-width: 1024px) {
+  .title-icon svg {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 17px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+  .title-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+}
